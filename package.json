@@ -1,0 +1,8 @@
+{
+  "name": "fintech-deadline-reminders",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/reminder_scheduler.test.ts", "start": "tsx src/reminder_scheduler.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3"}
+}

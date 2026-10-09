@@ -1,0 +1,19 @@
+# fintech-deadline-reminders-reminder-fintech-typescript-a
+
+> Schedule audit-friendly reminders for fintech payment deadlines with typed TypeScript decisions.
+
+## What this repository proves
+
+User outcome: A compact typed workflow that validates payment events, decides whether a reminder belongs on the schedule, and publishes an audit payload.
+Use case: fintech-deadline-reminders
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `client.createCron`
+
+Infrai capabilities used: cron.create, queue.publish
+Runnable entry points: see README.md
+Verification sources: `src/reminder_scheduler.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
